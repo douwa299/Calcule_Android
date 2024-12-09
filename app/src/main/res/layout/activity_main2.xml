@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@drawable/t_l_chargement__2_">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="300dp"
+       >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="cursive"
+            android:text="Welcome "
+
+            android:textAlignment="center"
+            android:textSize="50dp"
+            android:typeface="sans" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="500dp"
+        android:paddingLeft="100dp"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/signin"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            android:layout_width="150dp"
+            android:layout_height="73dp"
+            android:layout_margin="15dp"
+            android:text="Sign In"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:backgroundTint="#C3AF9B"
+
+            app:cornerRadius="50dp"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

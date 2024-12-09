@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group >
+    <item
+        android:id="@+id/standard"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Standard" />
+    <item
+        android:id="@+id/scientifique"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="Scientifique"
+        />
+    <item
+        android:id="@+id/graphique"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        android:title="Graphique" />
+    <item
+        android:id="@+id/programmeur"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        android:title="Programmeur" />
+    <item
+        android:id="@+id/devise"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        android:title="Devise" />
+
+    <item
+        android:id="@+id/volume"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        android:title="Volume" />
+        <item
+            android:id="@+id/longueur"
+            android:orderInCategory="101"
+            app:showAsAction="never"
+            android:title="Longueur" />
+        <item
+            android:id="@+id/poidsEtmasse"
+            android:orderInCategory="101"
+            app:showAsAction="never"
+            android:title="Poides et masse" />
+        <item
+            android:id="@+id/temperature"
+            android:orderInCategory="101"
+            app:showAsAction="never"
+            android:title="Temperature" />
+    </group>
+</menu>
